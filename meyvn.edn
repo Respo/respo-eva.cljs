@@ -1,0 +1,9 @@
+
+{:pom {:group-id "respo",
+       :artifact-id "eva",
+       :version "0.1.0",
+       :name "Eva icons used in Respo"}
+ :packaging {:jar {:enabled true
+                   :remote-repository {:id "clojars"
+                                       :url "https://clojars.org/repo"}}}
+ :scm {:enabled true}}
