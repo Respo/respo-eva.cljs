@@ -17,5 +17,5 @@
  (let [store (:store reel), states (:states store)]
    (div
     {:style (merge ui/global ui/row)}
-    (div {} (icons/wrap icons/eva-activity {:color "red", :width 100}))
+    (div {} (icons/wrap icons/eva-activity {:width 100}))
     (when dev? (cursor-> :reel comp-reel states reel {})))))
